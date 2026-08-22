@@ -1,9 +1,9 @@
-﻿# Patchright-Agent-RPA
+﻿# Patchright-RPA
 
 > 面向 AI Agent 的真实浏览器自动化技能层。  
 > 让 Agent 能在授权场景下，以接近真实用户的方式操作复杂 Web 应用。
 
-Patchright-Agent-RPA 是用于真实浏览器自动化的一个RPA-SKILLS项目。它封装了基于 Patchright 的浏览器控制、持久化会话、页面探测、受控操作、证据采集、任务脚本和工作流参考文档，使 AI Agent 能够以可重复、可检查的方式操作真实 Web 应用。
+Patchright-RPA 是用于真实浏览器自动化的一个RPA-SKILLS项目。它封装了基于 Patchright 的浏览器控制、持久化会话、页面探测、受控操作、证据采集、任务脚本和工作流参考文档，使 AI Agent 能够以可重复、可检查的方式操作真实 Web 应用。
 
 它不是单一用途的自动化脚本，而是一套可分发、可组合、可扩展的 Agent Skill 基础设施。你可以在此之上为不同业务场景构建专用技能，例如招聘系统、运营后台、CRM、客服后台、内容管理系统或企业 SaaS 平台。
 
@@ -11,7 +11,7 @@ Patchright-Agent-RPA 是用于真实浏览器自动化的一个RPA-SKILLS项目�
 
 ## 核心定位
 
-Patchright-Agent 关注的是：
+Patchright-RPA 关注的是：
 
 - **真实浏览器操作**：基于真实 Chromium 环境，而不是简化的接口或静态脚本。
 - **持久化会话复用**：支持保存登录态、Cookie、本地存储和浏览器配置。
@@ -22,7 +22,7 @@ Patchright-Agent 关注的是：
 
 ---
 
-## 为什么需要 Patchright-Agent
+## 为什么需要 Patchright-RPA
 
 传统网页自动化通常面向测试脚本，强调确定性流程；而 AI Agent 面对的是真实业务页面，往往存在更多不确定性：
 
